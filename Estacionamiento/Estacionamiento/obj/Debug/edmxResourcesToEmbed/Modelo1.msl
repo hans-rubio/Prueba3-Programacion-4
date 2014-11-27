@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EstacionamientoModel1StoreContainer" CdmEntityContainer="EstacionamientoEntities2">
+    <EntitySetMapping Name="Registro">
+      <EntityTypeMapping TypeName="EstacionamientoModel1.Registro">
+        <MappingFragment StoreEntitySet="Registro">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Patente" ColumnName="Patente" />
+          <ScalarProperty Name="Fecha_ingreso" ColumnName="Fecha_ingreso" />
+          <ScalarProperty Name="Fecha_salida" ColumnName="Fecha_salida" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Tiempo" ColumnName="Tiempo" />
+          <ScalarProperty Name="Monto_Pagar" ColumnName="Monto_Pagar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

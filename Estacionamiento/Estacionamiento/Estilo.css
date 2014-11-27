@@ -1,0 +1,23 @@
+﻿body {
+}
+
+
+.Franja {
+    font-family: Arial;
+    background-color: #ffffff;
+    border-style: solid;
+    padding: 1px;
+}
+
+.Contenido{
+    font-family: Arial;
+    background-color: #808080;
+    color: blue;
+    padding: 1px;
+
+}
+.nuevoEstilo1 {
+    background-color: #C0C0C0;
+    border-style: double;
+    border-width: medium;
+}
